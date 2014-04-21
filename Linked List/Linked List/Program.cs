@@ -8,15 +8,32 @@ namespace Linked_List
 {
     class Program
     {
+        public class Node
+        {
+            public String name;
+            public Node next;
+        }
+
+        public class LinkedList
+        {
+            private Node head;
+
+            //next node for current
+
+            public void insert(String data)
+            {
+                Node add = new Node();
+                add.name = data;
+
+            }
+        }
+
         static void Main(string[] args)
         {
-            List prog = new List();
-            Console.WriteLine(prog.isEmpty());
+            LinkedList a = new LinkedList();
+            a.insert("boo");
 
-            prog.Append();
-            prog.Append();
-            prog.Append();
-            Console.ReadKey();
+            Console.Read();
         }
     }
 }
