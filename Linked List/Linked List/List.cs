@@ -75,6 +75,7 @@ namespace Linked_List
             a.insert("Boo");
             a.insert("Plaster");
             a.insert("Yourself");
+            a.insert("Canada");
             a.display();
 
             Node b = new Node("Ottawa");
